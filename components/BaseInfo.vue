@@ -6,7 +6,7 @@
       <base-title
         size="body-1"
         space="4"
-        title="MULTI-PURPOSE THEME"
+        :title="title"
         weight="regular"
         class="mt-2"
       />
@@ -40,25 +40,5 @@ export default {
       default: true,
     },
   },
-
-  data: () => ({
-    business: [
-      {
-        icon: 'mdi-map-marker-outline',
-        title: 'Address',
-        text: '8553 N. Beach St. Ste. 227<br>Fort Worth, Texas 76137',
-      },
-      {
-        icon: 'mdi-cellphone',
-        title: 'Phone',
-        text: '01 (800) 433 744<br>01 (800) 433 633',
-      },
-      {
-        icon: 'mdi-email',
-        title: 'Email',
-        text: 'john@vuetifyjs.com<br>heather@vuetifyjs.com',
-      },
-    ],
-  }),
 }
 </script>
