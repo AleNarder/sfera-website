@@ -9,7 +9,9 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
-
+    router: {
+      base: 'https://github.com/AleNarder/sfera-website',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
