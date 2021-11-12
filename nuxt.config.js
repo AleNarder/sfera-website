@@ -3,14 +3,14 @@ export default {
   target: 'static',
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
+  router: {
+    base: '/sfera-website/',
+  },
   head: {
     titleTemplate: '%s - colla-website',
     title: 'colla-website',
     htmlAttrs: {
       lang: 'en',
-    },
-    router: {
-      base: '/sfera-website/',
     },
     meta: [
       { charset: 'utf-8' },
