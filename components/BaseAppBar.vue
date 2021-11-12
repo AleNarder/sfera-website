@@ -16,7 +16,7 @@
             v-for="({ name, path }, i) in items"
             :key="i"
             :to="{ path }"
-            :exact="name === 'Home'"
+            :exact="name === 'index'"
             :ripple="false"
             active-class="text--primary"
             class="font-weight-bold"

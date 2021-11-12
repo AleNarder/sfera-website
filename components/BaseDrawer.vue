@@ -14,6 +14,7 @@
       <v-list-item
         v-for="({ name, path }, i) in items"
         :key="i"
+        :exact="name === 'index'"
         :to="{ path }"
         color="primary"
       >
