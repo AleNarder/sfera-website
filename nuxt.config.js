@@ -7,8 +7,7 @@ export default {
     base: '/sfera-website/',
   },
   head: {
-    titleTemplate: '%s - colla-website',
-    title: 'colla-website',
+    title: 'Gruppo Sfera',
     htmlAttrs: {
       lang: 'en',
     },

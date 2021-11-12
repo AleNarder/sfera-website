@@ -2,8 +2,12 @@
   <div>
     <section-hero-alt :title="title" />
     <v-container class="pa-12" :fluid="$vuetify.breakpoint.mdAndDown">
-      <base-title>Resta in contatto con noi</base-title>
-      <base-divider color="primary" />
+      <div v-if="$vuetify.breakpoint.mdAndUp">
+        <base-title class="text-uppercase"
+          >Resta in contatto con noi</base-title
+        >
+        <base-divider color="primary" />
+      </div>
       <v-row>
         <v-col
           :cols="$vuetify.breakpoint.mdAndUp ? 5 : 12"
@@ -21,7 +25,7 @@
         <v-col :cols="$vuetify.breakpoint.mdAndUp ? 5 : 12">
           <base-img
             :src="require('@/assets/mappa.jpg')"
-            min-width="300px"
+            min-width="min(300px, 70vw)"
             max-height="500px"
             contain
           />
@@ -32,6 +36,9 @@
 </template>
 <script>
 export default {
+  metaInfo: {
+    title: 'Contatti',
+  },
   data: () => ({
     title: 'Contatti',
   }),

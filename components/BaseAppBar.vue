@@ -2,14 +2,11 @@
   <div>
     <v-app-bar id="home-app-bar" app color="white" elevation="1" height="80">
       <base-img
-        class="mr-3 hidden-xs-only"
         contain
+        max-height="64"
+        max-width="64"
         :src="require('@/assets/sfera-logo.png')"
-        max-width="52"
-        width="100%"
       />
-
-      <base-img contain max-width="128" width="100%" />
 
       <v-spacer />
 

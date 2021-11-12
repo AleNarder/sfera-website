@@ -34,7 +34,7 @@
       excepturi solut!"
             dark
           />
-          <base-btn>Scopri di più</base-btn>
+          <base-btn to="/servizi">Scopri di più</base-btn>
         </v-col>
         <v-col
           class="d-flex flex-column align-center"
@@ -50,7 +50,7 @@
       excepturi solut!"
             dark
           />
-          <base-btn>Scopri di più</base-btn>
+          <base-btn to="/staff">Scopri di più</base-btn>
         </v-col>
         <v-col
           class="d-flex flex-column align-center"
@@ -66,7 +66,7 @@
       excepturi solut!"
             dark
           />
-          <base-btn>Scopri di più</base-btn>
+          <base-btn to="/contatti">Scopri di più</base-btn>
         </v-col>
       </v-row>
     </v-container>

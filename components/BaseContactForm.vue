@@ -7,17 +7,12 @@
       color="primary"
     />
 
-    <base-text-field label="Nome" />
-
-    <base-text-field label="Email" />
-
-    <base-text-field label="Oggetto" />
-
-    <base-textarea class="mb-6" label="Descrizione" />
+    <base-text-field v-model="subject" name="Oggetto" label="Oggetto" />
+    <base-textarea v-model="text" class="mb-6" label="Descrizione" />
 
     <base-btn
       :color="!theme.isDark ? 'accent' : 'white'"
-      href="mailto:condominio@grupposfera.it?subject=Richiesta Informazioni"
+      :href="`mailto:condominio@grupposfera.it?subject=${subject}&body=${text}`"
       outlined
       target="_blank"
     >
@@ -31,7 +26,10 @@ export default {
   name: 'BaseContactForm',
 
   inject: ['theme'],
-
+  data: () => ({
+    text: '',
+    subject: '',
+  }),
   props: {
     subtitle: String,
     title: {

@@ -1,7 +1,10 @@
 <template>
   <div>
     <section-hero-alt :title="title" />
-    <v-container class="d-flex align-center flex-column pa-12">
+    <v-container
+      class="d-flex align-center flex-column pa-12"
+      style="max-width: min(100vw, 1200px)"
+    >
       <v-row v-for="(card, i) of cards" :key="i">
         <v-col>
           <base-info-card v-bind="card" />
