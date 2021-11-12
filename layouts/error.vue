@@ -7,7 +7,7 @@
     <base-title class="mb-12"
       >Questa pagina non è disponibile o inesistente</base-title
     >
-    <base-btn color="primary">Torna in home</base-btn>
+    <base-btn color="primary" to="/">Torna in home</base-btn>
   </v-container>
 </template>
 
