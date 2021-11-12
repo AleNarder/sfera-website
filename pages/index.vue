@@ -1,5 +1,6 @@
 <template>
   <div>
+    <section-hero-alt :title="title" />
     <v-container class="pa-12"
       ><base-section-heading title="SFERA CONDOMINIO: CHI SIAMO">
         SFERA Condominio è un marchio (?) di SFERA S.a.s. di Enrico Colla &
