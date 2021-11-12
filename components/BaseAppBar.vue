@@ -56,7 +56,7 @@ export default {
       },
       {
         name: 'Domande e Risposte',
-        path: '/qa',
+        path: '/faq',
       },
       {
         name: 'Referenze',

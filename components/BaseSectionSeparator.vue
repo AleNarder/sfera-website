@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-separator mb-12"></div>
+  <div class="custom-separator"></div>
 </template>
 <style scoped>
 .custom-separator {

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <section-hero-alt title="Gruppo Sfera" />
     <v-container class="pa-12"
       ><base-section-heading title="SFERA CONDOMINIO: CHI SIAMO">
         SFERA Condominio è un marchio (?) di SFERA S.a.s. di Enrico Colla &
@@ -18,7 +17,7 @@
         gestionale innovativo nel settore delle amministrazioni (amministro.io –
         Alfred)
       </base-section-heading>
-      <base-section-separator />
+      <base-section-separator class="my-12" />
       <v-row>
         <v-col
           class="d-flex flex-column align-center"
