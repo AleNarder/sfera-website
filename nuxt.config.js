@@ -10,7 +10,7 @@ export default {
       lang: 'en',
     },
     router: {
-      base: 'https://github.com/AleNarder/sfera-website',
+      base: 'https://alenarder.github.io/sfera-website/',
     },
     meta: [
       { charset: 'utf-8' },
