@@ -2,9 +2,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: false,
-  generate: {
-    fallback: '404.html',
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   router: {
     base: '/sfera-website/',
