@@ -1,7 +1,7 @@
 <template>
   <div :class="classes" class="pt-2">
     <base-avatar
-      v-if="icon"
+      v-if="icon && $vuetify.breakpoint.mdAndUp"
       :color="color"
       :dark="dark"
       :icon="icon"
@@ -10,7 +10,7 @@
       class="mb-3"
     />
 
-    <div :class="horizontal && title && 'ml-6'">
+    <div :class="horizontal && title && $vuetify.breakpoint.mdAndUp && 'ml-6'">
       <base-title :title="title" class="text-uppercase" space="3" />
       <base-divider color="primary" />
       <base-body

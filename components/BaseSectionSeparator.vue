@@ -4,7 +4,7 @@
 <style scoped>
 .custom-separator {
   height: 2px;
-  width: 600px;
+  width: min(600px, 100%);
   background-color: #949494;
   margin: auto;
 }
