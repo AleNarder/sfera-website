@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{484:function(e,t,n){"use strict";n.r(t);var l={name:"BaseTitle",extends:n(126).default,props:{size:{type:String,default:"headline"},sizeMobile:{type:String,default:"title"},weight:{type:String,default:"bold"}}},d=n(13),component=Object(d.a)(l,undefined,undefined,!1,null,null,null);t.default=component.exports}}]);
